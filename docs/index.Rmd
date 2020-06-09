@@ -4,14 +4,13 @@ author: "Jim Coen"
 date: "4/29/2020"
 output:
   html_document: 
-    keep_md: true
-    css: styles.css
-    fig_height: 6
-    fig_width: 6
-    toc: yes
-    toc_depth: 3
-    toc_float: TRUE
     code_folding: hide
+    css: styles.css
+    fig_height: 7
+    fig_width: 5
+    keep_md: yes
+    toc: yes
+    toc_float: yes
 ---
 
 ```{r setup, include=FALSE}
