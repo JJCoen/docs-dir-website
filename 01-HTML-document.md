@@ -1,7 +1,7 @@
 ---
 title: "HTML Document"
 author: "Jim Coen"
-date: "`r format(Sys.Date(), '%A, %B %d, %Y') `"
+date: "Tuesday, June 09, 2020"
 output:
   html_document: 
     keep_md: true
@@ -15,9 +15,7 @@ output:
     #theme:  cerulean
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # HTML Document YAML options
 
@@ -30,16 +28,17 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 ### Plot of cars dataset
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
+
+```r
 plot(cars)
 ```
+
+![](01-HTML-document_files/figure-html/cars-1.png)<!-- -->
 
 ### Air Quality dataset
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+![](01-HTML-document_files/figure-html/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
